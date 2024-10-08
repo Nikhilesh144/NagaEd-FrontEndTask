@@ -1,0 +1,93 @@
+*{
+  font-family: "poppins",sans-serif;
+}
+body{
+  padding: 50px 200px;
+}
+.contact--form{
+  display: flex;
+  flex-wrap: wrap;
+  border: #575454 1px solid;
+  border-radius: 5px;
+  width: fit-content;
+  /* padding: 100px; */
+  
+}
+.underLine{
+  display: flex;
+  height: 2px;
+  padding-left: 80px;
+  background-color: tomato;
+  /* border: 1px solid pink; */
+}
+.form h1{
+  font-size: x-large;
+  height: 10px;
+  width: 95%px;
+  /* border: 1px solid wheat; */
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #303030;
+  color: aliceblue;
+  padding: 100px;
+  border-radius: 5px;
+  /* width: 50%; */
+
+}
+input,textarea,label{
+  border-top:none ;
+  border-left: none;
+  border-right: none;
+  margin-top: 10px;
+  background-color: #303030;
+  color: aliceblue;
+  outline: none;
+}
+button{
+  background-color: tomato;
+  padding: 5px 10px;
+  color: aliceblue;
+  border: none;
+  margin-top: 10px;
+  border-radius : 5px;
+}
+.address{
+ 
+  padding: 30px ;
+  border: 1px solid black;
+}
+.address iframe{
+  /* padding: 30px; */
+  border: none;
+  border-radius: 10px;
+}
+.icons{
+display: flex;
+flex-direction: column;
+
+
+
+}
+.icon{
+  margin-top: -9px;
+  display: flex;
+  align-items: center;
+
+}
+@media (max-width:900px)   {
+  .form{
+      width: 60%;
+  }
+  
+}
+@media(max-width:550px){
+  body{
+    padding: 20px;
+  }
+}
+.message{
+  color: aliceblue;
+}
